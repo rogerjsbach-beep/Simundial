@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SIMUNDIAL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>SIMUNDIAL</h1>
+
+<div class="botones">
+
+    <button onclick="crearTorneo()">
+        CREAR TORNEO
+    </button>
+
+    <button id="j1" onclick="simularJornada(1)" disabled>
+        SIMULAR JORNADA 1
+    </button>
+
+    <button id="j2" onclick="simularJornada(2)" disabled>
+        SIMULAR JORNADA 2
+    </button>
+
+    <button id="j3" onclick="simularJornada(3)" disabled>
+        SIMULAR JORNADA 3
+    </button>
+
+    <button id="octavos" onclick="simularOctavos()" disabled>
+        SIMULAR OCTAVOS
+    </button>
+
+    <button id="cuartos" onclick="simularCuartos()" disabled>
+        SIMULAR CUARTOS
+    </button>
+
+    <button id="semis" onclick="simularSemifinales()" disabled>
+        SIMULAR SEMIFINALES
+    </button>
+
+    <button id="tercero" onclick="simularTercerPuesto()" disabled>
+        SIMULAR TERCER PUESTO
+    </button>
+
+    <button id="final" onclick="simularFinal()" disabled>
+        SIMULAR FINAL
+    </button>
+
+    <button onclick="nuevoSimundial()">
+        NUEVO SIMUNDIAL
+    </button>
+
+</div>
+
+
+<h2>GRUPOS</h2>
+<div id="grupos"></div>
+
+
+<h2>RESULTADOS</h2>
+<div id="resultados"></div>
+
+
+<h2>CLASIFICACIÓN DEL SIMUNDIAL</h2>
+<div id="clasificacion"></div>
+
+
+<h2>CAMPEÓN DEL MUNDO</h2>
+<div id="campeon"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
